@@ -1,0 +1,4 @@
+mistralai
+python-dotenv
+pandas
+scikit-learn

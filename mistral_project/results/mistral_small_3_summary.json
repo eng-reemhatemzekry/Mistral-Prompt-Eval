@@ -1,0 +1,24 @@
+{
+    "model": "ministral-3b-latest",
+    "dataset": "dataset_balanced.csv",
+    "total_rows": 100,
+    "successful_predictions": 100,
+    "failed_predictions": 0,
+    "accuracy": 0.74,
+    "macro_precision": 0.8165413533834586,
+    "macro_recall": 0.74,
+    "macro_f1": 0.7461321287408245,
+    "weighted_precision": 0.8165413533834587,
+    "weighted_recall": 0.74,
+    "weighted_f1": 0.7461321287408242,
+    "valid_routes": [
+        "faq",
+        "customer",
+        "hybrid",
+        "out_of_scope"
+    ],
+    "temperature": 0,
+    "max_tokens": 20,
+    "max_retries": 10,
+    "request_delay": 3.0
+}
